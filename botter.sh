@@ -7,7 +7,7 @@ mv * ..
 cd ..
 mv MCBOT.jar XDDOS.jar
 apt install git
-apt-get install openjdk-11-jdk
+apt-get install openjdk-11-jdk -y
 wget https://raw.githubusercontent.com/XDMEOW/SocksProxy/main/proxies.txt
 echo IP:PORT
 read ip
